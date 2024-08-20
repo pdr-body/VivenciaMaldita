@@ -7,8 +7,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2000px;
-    margin: -382px;
+    height: 90%;
+    margin: 0px;
+    overflow: hidden;
   }
 
   button{
@@ -33,3 +34,27 @@ main {
 img {
   max-width: 100%;
 }
+
+video#introVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Coloca o vídeo atrás dos outros elementos */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1; /* Garante que o texto e o botão fiquem sobre o vídeo */
+}
+
+.texto-fundo{
+  font-size: 50px
+}
+
