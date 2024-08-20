@@ -12,11 +12,13 @@ avanca.forEach(button => {
 
 var backgroundMusic = document.getElementById("backgroundMusic");
 var StartSound = document.getElementById("StartSound");
+var isPlaying = false;
 
 function startGame() {
     StartSound.play();
-    backgroundMusic.play();
 }
+
+
 
 
 
