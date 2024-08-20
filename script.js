@@ -18,7 +18,14 @@ function startGame() {
     StartSound.play();
 }
 
-
-
-
+document.getElementById("toggleBackgroundMusic").addEventListener("click", function() {
+    if (isPlaying) {
+        backgroundMusic.pause();
+        this.textContent = "Tocar Música de Fundo";
+    } else {
+        backgroundMusic.play();
+        this.textContent = "Pausar Música de Fundo";
+    }
+    isPlaying = !isPlaying;
+});
 
