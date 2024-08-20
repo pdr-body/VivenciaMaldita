@@ -58,3 +58,9 @@ video#introVideo {
   font-size: 50px
 }
 
+.fundo {
+    height: 38px;
+    background-color: rgb(42 127 139);
+    color: white
+}
+
