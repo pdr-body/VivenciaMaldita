@@ -21,10 +21,10 @@ function startGame() {
 document.getElementById("toggleBackgroundMusic").addEventListener("click", function() {
     if (isPlaying) {
         backgroundMusic.pause();
-        this.textContent = "Tocar Música de Fundo";
+        this.textContent = "TOCAR MUSICA TEMA";
     } else {
         backgroundMusic.play();
-        this.textContent = "Pausar Música de Fundo";
+        this.textContent = "PAUSAR MUSICA TEMA";
     }
     isPlaying = !isPlaying;
 });
