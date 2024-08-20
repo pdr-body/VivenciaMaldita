@@ -1,4 +1,5 @@
 
+
 <html lang="pt-br">
 
 <head>
@@ -14,7 +15,29 @@
 
 <body>
     <main>
-        <div class="passo ativo" id="passo-0">
+        <div class="passo ativo" id="passo-0.1">
+            <video id="introVideo" autoplay muted loop>
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento video.
+            </video>
+            <div class="overlay">
+            <p class="texto-fundo">VIVENCIA MALDITA: A HISTORIA DE FRANK</p>
+            <button class="btn-proximo" data-proximo="0" onclick="startGame()">START</button>
+            </div>
+            
+            <audio id="backgroundMusic" loop>
+                <source src="audio/Background.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento audio.
+            </audio>
+            
+            <audio id="startSound">
+                <source src="audio/Start.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento audio.
+            </audio>
+        
+        </div>
+        
+        <div class="passo " id="passo-0">
             <img src="Detroit 1942.png" alt="">
             <p> 
             Em 1942 nasce Frank, um bebe retinto com um dos olhos azuis, em detroit EUA. Primeiro filho de Isabel, mulher negra de 24 anos
